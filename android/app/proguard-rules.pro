@@ -1,0 +1,17 @@
+-optimizationpasses 5
+-repackageclasses ''
+-allowaccessmodification
+
+-keep class io.flutter.** { *; }
+-dontwarn io.flutter.**
+-keep class io.supabase.** { *; }
+-dontwarn io.supabase.**
+-keep class com.google.android.gms.** { *; }
+-dontwarn com.google.android.gms.**
+-keep class okhttp3.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keep class kotlin.** { *; }
+-dontwarn kotlin.**
+-keepattributes *Annotation*,Signature,SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile

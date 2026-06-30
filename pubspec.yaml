@@ -1,0 +1,30 @@
+name: trading_app
+description: Trading Robots Dashboard App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  supabase_flutter: ^2.5.6
+  device_info_plus: ^10.1.2
+  package_info_plus: ^8.0.2
+  http: ^1.2.0
+  google_sign_in: ^6.2.1
+  qr_flutter: ^4.1.0
+
+  # ✅ حماية: تشفير البيانات المحلية
+  flutter_secure_storage: ^9.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
