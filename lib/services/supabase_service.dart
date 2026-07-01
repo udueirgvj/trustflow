@@ -5,7 +5,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 class SupabaseConfig {
   static const String url = 'https://tzefctcwgdpfrsaqyfxx.supabase.co';
   static const String anonKey =
-      'sb_publishable_uotIEwfPIoQ_yYWOvt3HrA_jubLAfZB';
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6ZWZjdGN3Z2RwZnJzYXF5Znh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIyMjQxMTQsImV4cCI6MjA5NzgwMDExNH0.OZczHhNCmotI2aDBb9tsB_TOlQmmiaoxBYkcND82N70';
 }
 
 class SupabaseService {
